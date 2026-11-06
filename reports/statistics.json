@@ -1,0 +1,41 @@
+{
+  "data": "Synthetic data only; no claims about real people or music.",
+  "seed": 42,
+  "binomial_trials": 100000,
+  "binomial_simulated_probability": 0.18636,
+  "binomial_exact_probability": 0.1875,
+  "monte_carlo_standard_error": 0.0012342761036332186,
+  "group_a": {
+    "n": 200,
+    "mean": 51.529755797221476,
+    "sample_std": 9.300503558414876,
+    "mean_ci_95": [
+      50.23290860633076,
+      52.82660298811219
+    ]
+  },
+  "group_b": {
+    "n": 180,
+    "mean": 53.18075950968638,
+    "sample_std": 12.293572766549763,
+    "mean_ci_95": [
+      51.37260234976605,
+      54.988916669606716
+    ]
+  },
+  "welch_t": -1.4638084034691285,
+  "welch_p": 0.14419322663320297,
+  "alpha": 0.05,
+  "reject_equal_means": false,
+  "clt": {
+    "replications": 5000,
+    "sample_size": 40,
+    "population_mean": 2,
+    "observed_mean_of_means": 1.9931603118629413
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1"
+  }
+}
